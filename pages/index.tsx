@@ -35,15 +35,14 @@ export default function Home() {
 
     async function onSubmit(event) {
         event.preventDefault()
-        console.log("Form Data", event)
+        console.log(event.target.email.value)
         const client = createClient();
         await client.connect();
 
-        const formData = new FormData(event.target)
         try {
             await client.sql`INSERT INTO "USERS" (id, email) VALUES (
                 ${Math.floor(Math.random() * 1000)}, 
-                ${formData.email});`;
+                ${event.target.email.value});`;
             console.log("Successfully added row in messages table");
             alert("Thank you we will get back to you shortly")
             return;
