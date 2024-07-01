@@ -88,20 +88,16 @@ export default function Home() {
                 <div className="flex justify-between items-center w-full flex-col sm:mt-5 mt-1">
                     <br></br>
                     <h1 className="mx-auto max-w-4xl font-display text-3xl font-bold tracking-normal text-slate-900 sm:text-3xl">
-                        Want to upload your videos?
+                       Interested in analysing your workout videos? 
                     </h1>
                     <div className="flex flex-col space-y-8 mt-4 mb-16">
                         <div className="flex sm:space-x-2 sm:flex-row flex-col sm:text-xl text-xl font-display">
-                            <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4" onSubmit={onSubmit}>
-                                <div className="mb-4">
-                                    <input type="text" className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" name="email" placeholder="Enter your email" />
+                            <div className="mb-6">
+                                <a className="twitter-follow-button font-medium text-blue-600 dark:text-blue-500 hover:underline"
+                                    href="https://twitter.com/pbanavara">
+                                    Follow @pbanavara</a>
+
                                 </div>
-                                <div className="mb-6">
-                                    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" type="submit">
-                                        Notify me
-                                    </button>
-                                </div>
-                            </form>
                         </div>
                     </div>
                 </div>
