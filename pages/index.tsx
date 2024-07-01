@@ -82,7 +82,7 @@ export default function Home() {
                         <source src="/output.mp4" type="video/mp4" />
                     </video>
                     <h2 className="mx-auto max-w-4xl font-display text-xl font-bold tracking-normal text-slate-900 sm:text-xl">
-                        your left foot has a heel strike
+                        Analysis: Your left foot has a heel strike.
                     </h2> 
                 </div>
                 <div className="flex justify-between items-center w-full flex-col sm:mt-5 mt-1">
