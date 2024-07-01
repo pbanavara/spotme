@@ -8,7 +8,8 @@ const nextConfig = {
         POSTGRES_URL: process.env.POSTGRES_URL,
         POSTGRES_URL_NON_POOLING: process.env.POSTGRES_URL_NON_POOLING,
         POSTGRES_URL_NO_SSL: process.env.POSTGRES_URL_NO_SSL,
-        POSGTRES_USER: process.env.POSGTRES_USER
+        POSGTRES_USER: process.env.POSGTRES_USER,
+        SECRET: process.env.SECRET
     },
     images: {
         domains: [
