@@ -1,0 +1,18 @@
+Fix:
+
+BodyPosesMap - Added the missing pushup values
+PhotoItem - Intializer changed
+Device orientation on OnnxPoseUtils
+Camera start stop on CamView
+Text for body alignment CamView
+CamViewModel - BodyInPosition textvalue added
+Added a mainViewModel to initialize the pose model
+PhotoDataModel fixes for filenames
+Changed text in onboardingview
+Modified the logo to have a white background. TODO: Make it transparent.
+Added device orientation to FrameManager
+CoachViewModel - Updated workout array and strings
+
+Feature:
+
+CheckIfBodyInFrame for every workout type - PoseUtils
